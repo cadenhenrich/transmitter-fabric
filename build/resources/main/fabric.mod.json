@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "transmitter",
   "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Transmitter",
+  "description": "A Minecraft Inter-Process Control Platform",
   "authors": [
-    "Me!"
+    "Caden Henrich"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/cadenhenrich"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GNU GPLv3",
+  "icon": "assets/transmitter/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.cadenhenrich.transmitter.TransmitterMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "transmitter.mixins.json"
   ],
 
   "depends": {
